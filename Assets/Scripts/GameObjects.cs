@@ -7,6 +7,7 @@ public class GameObjects : MonoBehaviour
     public List<GameObject> treasure = new List<GameObject>();
     public List<GameObject> tiles = new List<GameObject>();
     public List<GameObject> adventurers = new List<GameObject>();
+    public List<GameObject> treasureCards = new List<GameObject>();
 
     public void AddTilesToList()
     {
@@ -201,5 +202,32 @@ public class GameObjects : MonoBehaviour
         adventurers.Add(GameObject.Find("Messenger"));
     }
 
-    
+    public void AddCardsToTreasureCards()
+    {
+        treasureCards.Add(GameObject.Find("The Earth Stone 1"));
+        treasureCards.Add(GameObject.Find("The Earth Stone 2"));
+        treasureCards.Add(GameObject.Find("The Earth Stone 3"));
+        treasureCards.Add(GameObject.Find("The Earth Stone 4"));
+        treasureCards.Add(GameObject.Find("The Earth Stone 5"));
+        treasureCards.Add(GameObject.Find("The Statue of the Wind 1"));
+        treasureCards.Add(GameObject.Find("The Statue of the Wind 2"));
+        treasureCards.Add(GameObject.Find("The Statue of the Wind 3"));
+        treasureCards.Add(GameObject.Find("The Statue of the Wind 4"));
+        treasureCards.Add(GameObject.Find("The Statue of the Wind 5"));
+        treasureCards.Add(GameObject.Find("The Crystal of Fire 1"));
+        treasureCards.Add(GameObject.Find("The Crystal of Fire 2"));
+        treasureCards.Add(GameObject.Find("The Crystal of Fire 3"));
+        treasureCards.Add(GameObject.Find("The Crystal of Fire 4"));
+        treasureCards.Add(GameObject.Find("The Crystal of Fire 5"));
+        treasureCards.Add(GameObject.Find("The Ocean's Chalice 1"));
+        treasureCards.Add(GameObject.Find("The Ocean's Chalice 2"));
+        treasureCards.Add(GameObject.Find("The Ocean's Chalice 3"));
+        treasureCards.Add(GameObject.Find("The Ocean's Chalice 4"));
+        treasureCards.Add(GameObject.Find("The Ocean's Chalice 5"));
+        treasureCards.Add(GameObject.Find("Helicopter Lift 1"));
+        treasureCards.Add(GameObject.Find("Helicopter Lift 2"));
+        treasureCards.Add(GameObject.Find("Helicopter Lift 3"));
+        treasureCards.Add(GameObject.Find("Sandbag 1"));
+        treasureCards.Add(GameObject.Find("Sandbag 2"));
+    }
 }
