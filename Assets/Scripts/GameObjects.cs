@@ -6,7 +6,13 @@ public class GameObjects : MonoBehaviour
 {
     public List<GameObject> treasure = new List<GameObject>();
     public List<GameObject> tiles = new List<GameObject>();
+    public List<GameObject> tilesonBoard = new List<GameObject>();
     public List<GameObject> adventurers = new List<GameObject>();
+    public List<GameObject> treasureCards = new List<GameObject>();
+    
+
+    public List<GameObject> treasureCardsDiscard = new List<GameObject>();
+    public List<GameObject> tilesDiscard = new List<GameObject>();
 
     public void AddTilesToList()
     {
@@ -34,6 +40,31 @@ public class GameObjects : MonoBehaviour
         tiles.Add(GameObject.Find("Temple of the Sun"));
         tiles.Add(GameObject.Find("Cave of Shadows"));
         tiles.Add(GameObject.Find("Fool's Landing"));
+
+        tilesonBoard.Add(GameObject.Find("Breaker's Bridge"));
+        tilesonBoard.Add(GameObject.Find("Dunes of Deception"));
+        tilesonBoard.Add(GameObject.Find("Whispering Garden"));
+        tilesonBoard.Add(GameObject.Find("Coral Palace"));
+        tilesonBoard.Add(GameObject.Find("Silver Gate"));
+        tilesonBoard.Add(GameObject.Find("Twilight Hollow"));
+        tilesonBoard.Add(GameObject.Find("Bronze Gate"));
+        tilesonBoard.Add(GameObject.Find("Cave of Embers"));
+        tilesonBoard.Add(GameObject.Find("Tidal Palace"));
+        tilesonBoard.Add(GameObject.Find("Observatory"));
+        tilesonBoard.Add(GameObject.Find("Cliffs of Abandon"));
+        tilesonBoard.Add(GameObject.Find("Temple of the Moon"));
+        tilesonBoard.Add(GameObject.Find("Watchtower"));
+        tilesonBoard.Add(GameObject.Find("Crimson Forest"));
+        tilesonBoard.Add(GameObject.Find("Copper Gate"));
+        tilesonBoard.Add(GameObject.Find("Lost Lagoon"));
+        tilesonBoard.Add(GameObject.Find("Phantom Rock"));
+        tilesonBoard.Add(GameObject.Find("Iron Gate"));
+        tilesonBoard.Add(GameObject.Find("Howling Garden"));
+        tilesonBoard.Add(GameObject.Find("Gold Gate"));
+        tilesonBoard.Add(GameObject.Find("Misty Marsh"));
+        tilesonBoard.Add(GameObject.Find("Temple of the Sun"));
+        tilesonBoard.Add(GameObject.Find("Cave of Shadows"));
+        tilesonBoard.Add(GameObject.Find("Fool's Landing"));
     }
 
     public void PlaceTilesOnBoard()
@@ -199,6 +230,35 @@ public class GameObjects : MonoBehaviour
         adventurers.Add(GameObject.Find("Diver"));
         adventurers.Add(GameObject.Find("Engineer"));
         adventurers.Add(GameObject.Find("Messenger"));
+    }
+
+    public void AddCardsToTreasureCards()
+    {
+        treasureCards.Add(GameObject.Find("The Earth Stone 1"));
+        treasureCards.Add(GameObject.Find("The Earth Stone 2"));
+        treasureCards.Add(GameObject.Find("The Earth Stone 3"));
+        treasureCards.Add(GameObject.Find("The Earth Stone 4"));
+        treasureCards.Add(GameObject.Find("The Earth Stone 5"));
+        treasureCards.Add(GameObject.Find("The Statue of the Wind 1"));
+        treasureCards.Add(GameObject.Find("The Statue of the Wind 2"));
+        treasureCards.Add(GameObject.Find("The Statue of the Wind 3"));
+        treasureCards.Add(GameObject.Find("The Statue of the Wind 4"));
+        treasureCards.Add(GameObject.Find("The Statue of the Wind 5"));
+        treasureCards.Add(GameObject.Find("The Crystal of Fire 1"));
+        treasureCards.Add(GameObject.Find("The Crystal of Fire 2"));
+        treasureCards.Add(GameObject.Find("The Crystal of Fire 3"));
+        treasureCards.Add(GameObject.Find("The Crystal of Fire 4"));
+        treasureCards.Add(GameObject.Find("The Crystal of Fire 5"));
+        treasureCards.Add(GameObject.Find("The Ocean's Chalice 1"));
+        treasureCards.Add(GameObject.Find("The Ocean's Chalice 2"));
+        treasureCards.Add(GameObject.Find("The Ocean's Chalice 3"));
+        treasureCards.Add(GameObject.Find("The Ocean's Chalice 4"));
+        treasureCards.Add(GameObject.Find("The Ocean's Chalice 5"));
+        treasureCards.Add(GameObject.Find("Helicopter Lift 1"));
+        treasureCards.Add(GameObject.Find("Helicopter Lift 2"));
+        treasureCards.Add(GameObject.Find("Helicopter Lift 3"));
+        treasureCards.Add(GameObject.Find("Sandbag 1"));
+        treasureCards.Add(GameObject.Find("Sandbag 2"));
     }
 
     
